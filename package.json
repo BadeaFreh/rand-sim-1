@@ -1,7 +1,7 @@
 {
   "name": "mongoose-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Make sure you **fork** this repository to your own Github, then clone it to your computer\r - From the project root directory, run `npm install`, then run `node server.js`\r - Next, go to `http://localhost:3001/` in your browser\r - **Note**: if you make changes in `api.js` you **must** \"exit the server\" by pressing `ctrl + c` in the terminal, and then run `node server.js` again to \"start the server\" again",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "jquery": "^3.4.1",
-    "mongoose": "^5.6.2"
-  }
+    "mongoose": "^5.13.15",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadeaFreh/rand-sim-1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BadeaFreh/rand-sim-1/issues"
+  },
+  "homepage": "https://github.com/BadeaFreh/rand-sim-1#readme"
 }
