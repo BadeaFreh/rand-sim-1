@@ -35,7 +35,12 @@ button{
     border-radius: 3px;
     display: grid;
     grid-template-columns: 5% 90% 5%;
-    background-color: #7ed6df;
+    background-color: #A6BB8D;
+    padding-bottom: 0;
+}
+
+.todo .text {
+    width: 80%;
 }
 
 .todo.complete .text{
@@ -47,8 +52,41 @@ button{
     align-content: center;
 }
 
-i{font-size: 0.6em; cursor: pointer; }
-i:active{font-size: 0.5em}
+i{
+    font-size: 0.6em; cursor: pointer;
+}
 
-.fa-trash{color: #e74c3c}
-.fa-check-circle{color: #27ae60}
+i:active{
+    font-size: 0.5em
+}
+
+.fa-trash{
+    color: #e74c3c
+}
+
+.fa-check-circle{
+    color: #27ae60
+}
+
+.priority {
+    position: relative;
+    display: flex;
+    left: 270px;
+    bottom: 18px;
+}
+
+.fa-circle {
+    margin: 3px;
+}
+
+.high {
+    color: #D61355;
+}
+
+.mid {
+    color: #FCE22A;
+}
+
+.low {
+    color: #1F8A70;
+}

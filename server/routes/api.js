@@ -7,7 +7,7 @@ let id = 1
 router.get('/todos', function (req, res) {
     res.send(todos)
 })
-// crud => create read update delete
+
 router.post('/todo', function (req, res) {
     const text = req.body.text
     const newTodo = { id: id++, text: text, complete: false}
@@ -34,7 +34,6 @@ router.delete('/todo/:todoID', function (req, res) {
     const todoID = req.params.todoID
     const todoIndex = todos.findIndex(t => t.id === todoID)
     todos.splice(todoIndex, 1)
-    // console.log('hello')
     res.send(todos)
 })
 
